@@ -10,7 +10,6 @@ Given a description for a task, create a new branch
 
 2. **Summarize the message into a branch**
    - The branch should be relatively short, less than 63 characters
-   - if i provide a ticket number number like "ENT-1234" in the beginning, reference that at the beginning of the new summarize message. (ex: ENT-1234-my-branch)
    - each word should be followed by - until the last word
    - Validate that the branch name doesn't already exist
    - Validate that the ticket number format is valid (e.g., numeric)
